@@ -5,9 +5,14 @@ import joblib
 
 # 1. Page Configuration
 st.set_page_config(page_title="Global Extreme Weather Dashboard", layout="centered")
+
+# Main Title
 st.title("Global Extreme Weather Dashboard")
-st.caption("An MSc Project | Predicting Economic Losses caused by Global Extreme Weather: A Study on Data Content Boundaries in Machine Learning.")
+# Subtitle with the Topic in Red
+st.markdown("An MSc Project | :red[Predicting Economic Losses caused by Global Extreme Weather: A Study on Data Content Boundaries in Machine Learning.]")
 st.write("By Nkiru Odoh")
+
+
 st.write("Enter regional metrics below to calculate predicted economic losses.")
 
 # 2. Safely Load Model Artifacts
