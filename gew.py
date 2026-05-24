@@ -6,6 +6,7 @@ import joblib
 # 1. Page Configuration
 st.set_page_config(page_title="Global Extreme Weather Dashboard", layout="centered")
 st.title("Global Extreme Weather Dashboard")
+st.markdown("### *An MSc Project*") 
 st.write("Enter regional metrics below to calculate predicted economic losses.")
 
 # 2. Safely Load Model Artifacts
