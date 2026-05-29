@@ -10,7 +10,7 @@ st.set_page_config(page_title="Global Extreme Weather Dashboard", layout="center
 st.title("Global Extreme Weather Dashboard")
 # Subtitle with the Topic in Red
 st.markdown("An MSc Project | :red[Predicting Economic Losses caused by Global Extreme Weather: A Study on Data Content Boundaries in Machine Learning.]")
-st.write("By Nkiru Odoh")
+st.write("By Nkiru Odoh & Dr. Nnaemeka U. Ezeonyi")
 
 
 st.write("Enter regional metrics below to calculate predicted economic losses.")
